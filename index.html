@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="shape-1"></div>
+    <div class="shape-2"></div>
+
+    <main>
+      <div class="container">
+        <div class="phone">
+          <header class="phone__header">
+            <img src="./images/arrow-left.svg" alt="" />
+            <div class="phone__user">
+              <img
+                class="phone__avatar"
+                src="./images/avatar.jpg"
+                width="24"
+                height="24"
+                alt=""
+              />
+              <div class="phone__user-info">
+                <span class="phone__username">Samuel Green</span>
+                <span class="phone__status">Available to Walk</span>
+              </div>
+            </div>
+            <img src="./images/menu.svg" alt="" />
+          </header>
+          <ul class="chat">
+            <li class="chat__input">
+              <input
+                class="chat__radio"
+                type="radio"
+                name="price"
+                id="price-1"
+              />
+              <label for="price-1">1 hour walk</label
+              ><span class="chat__price">$49</span>
+            </li>
+            <li class="chat__input">
+              <input
+                class="chat__radio"
+                type="radio"
+                name="price"
+                id="price-1"
+              />
+              <label for="price-1">30 minute walk</label
+              ><span class="chat__price">$29</span>
+            </li>
+            <li class="chat__response">
+              She looks so happy! The time we discussed works. How long shall I
+              take her out for?
+            </li>
+            <li class="chat__message">Can you make it?</li>
+            <li class="chat__message">
+              Here are a few pictures. She’s a happy girl!
+            </li>
+            <li class="chat__message chat__message--images">
+              <img
+                class="chat__image"
+                src="./images/dog-image-1.jpg"
+                width="40"
+                height="40"
+                alt=""
+              />
+              <img
+                class="chat__image"
+                src="./images/dog-image-2.jpg"
+                width="40"
+                height="40"
+                alt=""
+              />
+              <img
+                class="chat__image"
+                src="./images/dog-image-3.jpg"
+                width="40"
+                height="40"
+                alt=""
+              />
+            </li>
+            <li class="chat__response">
+              Could you send over some pictures of your dog, please?
+            </li>
+            <li class="chat__response">
+              That sounds great. I’d be happy with that.
+            </li>
+          </ul>
+          <footer class="phone__footer">
+            <input
+              class="phone__text"
+              type="text"
+              name="message"
+              id="message"
+              placeholder="Type a message… "
+            />
+            <button type="submit">
+              <img src="./images/arrow-right.svg" alt="" />
+            </button>
+          </footer>
+        </div>
+
+        <div class="content">
+          <h1>Simple booking</h1>
+          <p>
+            Stay in touch with our dog walkers through the chat interface. This
+            makes it easy to discuss arrangements and make bookings. Once the
+            walk has been completed you can rate your walker and book again all
+            through the chat.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a
+        class="attribution__link"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a class="attribution__link" href="https://rubendeman.nl" target="_blank"
+        >Ruben de Man</a
+      >.
+    </div>
+  </body>
+</html>
