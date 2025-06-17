@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <meta
+      name="description"
+      content="Stay in touch with dog walkers through this intuitive chat app. Book, communicate, and review your dog walkers with ease."
+    />
+    <meta
+      name="keywords"
+      content="dog walking, chat app, booking service, dog walkers, pet care, dog walk bookings"
+    />
+    <meta name="author" content="Ruben de Man" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Chat app CSS illustration</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <div class="phone">
+        <header class="phone__header">
+          <button class="phone__button phone__back">
+            <img
+              src="./assets/images/icon-arrow-left.svg"
+              width="4"
+              height="10"
+              alt="Back button"
+            />
+          </button>
+          <div class="phone__user">
+            <img
+              class="phone__avatar"
+              src="./assets/images/avatar.jpg"
+              width="24"
+              height="24"
+              alt="User profile of Samuel Green"
+            />
+            <div class="phone__user-info">
+              <span class="phone__user-name">Samuel Green</span>
+              <span class="phone__user-status">Available to Walk</span>
+            </div>
+          </div>
+          <button class="phone__button phone__menu">
+            <img
+              src="./assets/images/menu.svg"
+              width="2"
+              height="8"
+              alt="Menu button"
+            />
+          </button>
+        </header>
+        <div class="phone__messages">
+          <div class="phone__message-group">
+            <div class="phone__message">
+              That sounds great. I’d be happy with that.
+            </div>
+            <div class="phone__message">
+              Could you send over some pictures of your dog, please?
+            </div>
+          </div>
+          <div class="phone__message-group phone__message-group-sender">
+            <div class="phone__message-gallery">
+              <img
+                class="phone__message-image"
+                src="./assets/images/dog-image-1.jpg"
+                width="40"
+                height="40"
+                alt="Image of a dog"
+              />
+              <img
+                class="phone__message-image"
+                src="./assets/images/dog-image-2.jpg"
+                width="40"
+                height="40"
+                alt="Image of a happy dog"
+              />
+              <img
+                class="phone__message-image"
+                src="./assets/images/dog-image-3.jpg"
+                width="40"
+                height="40"
+                alt="Another happy dog image"
+              />
+            </div>
+            <div class="phone__message phone__message--sender">
+              Here are a few pictures. She’s a happy girl!
+            </div>
+            <div class="phone__message phone__message--sender">
+              Can you make it?
+            </div>
+          </div>
+          <div class="phone__message-group">
+            <div class="phone__message">
+              She looks so happy! The time we discussed works. How long shall I
+              take her out for?
+            </div>
+            <div class="phone__radiobox">
+              <input
+                class="phone__radio"
+                type="radio"
+                name="time"
+                id="30-min"
+              />
+              <label class="phone__label" for="30-min">
+                30 minute walk <span class="phone__price">$29</span></label
+              >
+            </div>
+            <div class="phone__radiobox">
+              <input
+                class="phone__radio"
+                type="radio"
+                name="time"
+                id="1-hour"
+              />
+              <label class="phone__label" for="1-hour">
+                1 hour walk <span class="phone__price">$49</span></label
+              >
+            </div>
+          </div>
+          <footer class="phone__footer">
+            <form action="#" class="phone__form">
+              <input
+                class="phone__input"
+                type="text"
+                name="text"
+                id="text"
+                placeholder="Type a message…"
+              />
+              <button class="phone__submit">
+                <img
+                  src="./assets/images/icon-button-arrow.svg"
+                  width="6"
+                  height="10"
+                  alt="Send message button"
+                />
+              </button>
+            </form>
+          </footer>
+        </div>
+      </div>
+      <div class="main__content">
+        <h1 class="main__title">Simple booking</h1>
+        <p class="main__text">
+          Stay in touch with our dog walkers through the chat interface. This
+          makes it easy to discuss arrangements and make bookings. Once the walk
+          has been completed you can rate your walker and book again all through
+          the chat.
+        </p>
+      </div>
+    </main>
+
+    <footer class="attribution">
+      <p>
+        Challenge by
+        <a
+          class="attribution__link"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          class="attribution__link"
+          href="https://rubendeman.nl"
+          target="_blank"
+          >Ruben de Man</a
+        >.
+      </p>
+    </footer>
+  </body>
+</html>
