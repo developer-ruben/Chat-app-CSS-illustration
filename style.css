@@ -392,7 +392,7 @@ body::after {
 
 /* MEDIA QUREIES */
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1399px) {
   body {
     padding: 0 3.2rem;
   }
