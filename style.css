@@ -347,9 +347,9 @@ body::after {
   flex: 1;
   outline: 0;
   border: 0;
+  color: hsl(var(--clr-very-dark-desaturated-violet-heading));
   font-size: 0.9rem;
   letter-spacing: -0.007rem;
-  color: hsl(var(--clr-very-dark-desaturated-violet-heading));
 }
 
 .phone__input::placeholder {
